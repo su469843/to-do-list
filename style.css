@@ -14,8 +14,25 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 300px;
+  width: 600px;
   text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form {
+  width: 48%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 20px;
 }
 
 input {
@@ -53,4 +70,9 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
 }
