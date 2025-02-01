@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <form id="login-form">
+      <input type="email" id="email" placeholder="输入邮箱" required>
+      <button type="submit">登录/注册</button>
+    </form>
+    <div id="todo-section" style="display: none;">
+      <form id="todo-form">
+        <input type="text" id="task" placeholder="输入任务" required>
+        <button type="submit">添加任务</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
