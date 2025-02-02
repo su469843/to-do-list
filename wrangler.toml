@@ -1,7 +1,7 @@
 name = "todo-api"
 type = "javascript"
 
-account_id = "你的 Cloudflare 账户 ID"
+account_id = "4e17d25f009abaf1c60309f541d2682f"
 zone_id = "你的域名区域 ID" # 可选
 route = "https://api.todo.one-mail.us.kg/*" # 部署路由
 
