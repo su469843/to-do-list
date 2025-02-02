@@ -5,29 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>登录/注册</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <div class="form-container">
-      <!-- 登录表单 -->
-      <form id="login-form" class="form">
-        <h2>登录</h2>
-        <input type="email" id="login-email" placeholder="邮箱" required>
-        <input type="password" id="login-password" placeholder="密码" required>
-        <button type="submit">登录</button>
-      </form>
+    <div class="card">
+      <h1>To-Do List</h1>
+      <div class="form-container">
+        <!-- 登录表单 -->
+        <form id="login-form" class="form">
+          <h2>登录</h2>
+          <input type="email" id="login-email" placeholder="邮箱" required>
+          <button type="submit">登录</button>
+        </form>
 
-      <!-- 注册表单 -->
-      <form id="register-form" class="form">
-        <h2>注册</h2>
-        <input type="email" id="register-email" placeholder="邮箱" required>
-        <input type="password" id="register-password" placeholder="密码" required>
-        <input type="text" id="register-username" placeholder="用户名" required>
-        <button type="submit">注册</button>
-      </form>
+        <!-- 注册表单 -->
+        <form id="register-form" class="form">
+          <h2>注册</h2>
+          <input type="email" id="register-email" placeholder="邮箱" required>
+          <button type="submit">注册</button>
+        </form>
+      </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
   <script src="script.js"></script>
 </body>
 </html>
